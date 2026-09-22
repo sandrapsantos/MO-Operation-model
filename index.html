@@ -215,6 +215,7 @@
   .lane-label{grid-column:1; z-index:1; padding:10px 12px; border-right:1px solid var(--line); border-top:1px solid var(--line); background:var(--surface-2); display:flex; flex-direction:column; gap:2px; justify-content:center}
   .lane-label .ln-id{font-family:'JetBrains Mono',monospace; font-size:9px; letter-spacing:.14em; color:var(--ink-faint); text-transform:uppercase}
   .lane-label .ln-name{font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:12.5px; line-height:1.2}
+  .lane-label .ln-desc{font-size:12px; color:var(--ink-soft); line-height:1.4; margin-top:6px; max-width:140px}
   .ln-svcs{font-family:'JetBrains Mono',monospace; font-size:9px; color:var(--ink-faint); line-height:1.5; margin-top:4px}
   .people{display:flex; flex-wrap:wrap; gap:4px}
   .psn{font-size:9.5px; padding:2px 6px; border-radius:5px; white-space:nowrap; font-weight:500}
@@ -406,7 +407,7 @@
 
         <!-- LIABILITIES -->
         <div class="lane-label" style="grid-row:2">
-          <span class="ln-id">Sub-domain</span><span class="ln-name">Liabilities</span>
+          <span class="ln-id">Sub-domain</span><span class="ln-name">Liabilities</span><span class="ln-desc">Controlling exposure & potential payout across events.</span>
         </div>
         <div class="block b-liab carried" style="grid-row:2; grid-column:2 / span 2">
           <span class="prog-obp">OBP</span><span class="b-title">Enable Unified Risk Processing for Combined Bets</span><span class="b-ballpark"><b>RMS</b> M · <b>LEBH</b> XS–S · <b>CBR</b> XS–S</span>
@@ -427,7 +428,7 @@
 
         <!-- LIMITS -->
         <div class="lane-label" style="grid-row:3 / span 3">
-          <span class="ln-id">Sub-domain</span><span class="ln-name">Limits</span>
+          <span class="ln-id">Sub-domain</span><span class="ln-name">Limits</span><span class="ln-desc">Shaping the bet through max / min stake & potential win.</span>
         </div>
         <div class="block b-lim" style="grid-row:3; grid-column:5 / span 4">
           <span class="prog-obp">OBP</span><span class="b-title">Centralise Risk Datapoints Consumption Across Risk Tools</span><span class="b-ballpark"><b>Risk Stream (RMS)</b> M · <b>QBS</b> M</span>
@@ -465,7 +466,7 @@
 
         <!-- RISK UIs -->
         <div class="lane-label" style="grid-row:6 / span 2">
-          <span class="ln-id">Sub-domain</span><span class="ln-name">Intelligent Customer Management</span>
+          <span class="ln-id">Sub-domain</span><span class="ln-name">Intelligent Customer Management</span><span class="ln-desc">Understanding & acting on customer risk profiles.</span>
         </div>
         <div class="block b-rui carried" style="grid-row:6; grid-column:2 / span 2">
           <span class="b-title">Bulk Creation of Hierarchy Groups</span>
